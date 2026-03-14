@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up routing with TanStack Router, theme provider, and toast notifications for the Swedish superapp.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component providing consistent header, footer, and main content structure with React Query provider for all pages.",
+  "frontend/src/components/Header.tsx": "Mobile-optimized header component with safe area insets, touch-friendly navigation, and backdrop blur for native app aesthetics.",
+  "frontend/src/components/Footer.tsx": "Mobile-optimized footer with safe area insets and touch-friendly links displaying caffeine.ai attribution.",
+  "frontend/src/pages/HomePage.tsx": "Mobile-optimized home page with automatic location detection showing category cards with dynamic \"nära dig\" (nearby) sections beneath each category, displaying location-based recommendations filtered by category type with proper loading states and error handling.",
+  "frontend/src/pages/CategoryPage.tsx": "Category detail page with automatic location detection displaying filtered location-based recommendations specific to each category (transport, restaurants, food, entertainment) with mobile-optimized design and comprehensive error handling.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching categories, location recommendations, and initializing backend data with proper caching and invalidation strategies.",
+  "frontend/src/index.css": "Global styles with enhanced OKLCH color system featuring vibrant blue primary and teal accent colors, mobile-first utilities including safe area insets, touch manipulation, and smooth native app-like transitions.",
+  "frontend/tailwind.config.js": "Tailwind configuration with mobile-first container padding and extended design tokens for native app-like styling.",
+  "frontend/src/hooks/useLocation.ts": "Custom React hook that handles automatic browser geolocation detection, coordinate-to-city mapping for Swedish cities, permission handling, and provides location state with proper error messages in Swedish."
+}
